@@ -1,0 +1,6 @@
+/* pages/open/open.wxss */
+.buttonstyle {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}

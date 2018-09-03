@@ -1,0 +1,14 @@
+<!--pages/canvas/canvas.wxml-->
+<view style='margin-top:20px;'>下面是一块画布</view>
+<canvas canvas-id='firstcanvas' class='canvasstyle' bindtouchstart="touchbegin" bindtouchmove="touchmove" bindtouchend="touchend" ></canvas>
+
+
+
+
+
+
+
+
+
+
+

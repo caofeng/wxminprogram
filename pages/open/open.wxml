@@ -1,0 +1,13 @@
+<!--pages/open/open.wxml-->
+
+<!-- <open-data type="groupName"></open-data>
+<open-data type="userNickName"></open-data>
+<open-data type="userGender"></open-data>
+<open-data type="userCity"></open-data>
+<open-data type="userProvince"></open-data>
+<open-data type="userCountry"></open-data>
+<open-data type="userAvatarUrl"></open-data> -->
+
+<!-- <web-view src="https://mp.weixin.qq.com/" ></web-view> -->
+<image src='{{imagesrc}}' style='width:200px;height:300px;'></image>
+<button class='buttonstyle' type='primary' bindtap='buttonclick'>调用API</button>

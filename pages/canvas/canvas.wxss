@@ -1,0 +1,9 @@
+/* pages/canvas/canvas.wxss */
+
+.canvasstyle {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 340px;
+  height: 400px;
+  background-color: gray;
+}

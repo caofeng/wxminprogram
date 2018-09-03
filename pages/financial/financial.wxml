@@ -1,0 +1,62 @@
+<!--pages/financial/financial.wxml-->
+<view data-sender-beta="23" bindtap = "customMethod">{{name}}</view>
+<!-- <view wx:for="{{array}}" wx:key = "unique">{{item}}</view> -->
+<view>初时布局</view>
+<view class='test'>
+  <view class='left'>1</view>
+  <view class='center'>2</view>
+  <view class='right'>3</view>
+</view>
+
+
+<view style='margin-top:20px;'>ScrollView的简单实用</view>
+<scroll-view class='scrollview' scroll-y bindscrolltoupper="toupper" bindscroll="scroll" scroll-top="{{scrollTop}}">
+
+  <view class='top_red'></view>
+  <view class='center_yellow'></view>
+  <view class='bottom_green'></view>
+
+</scroll-view>
+
+<button class='click_button' bindtap='addToScroll'>Click me to Scroll</button>
+
+
+
+<view style="margin-top:20px;">轮播组件的简单实用</view>
+
+<swiper class='swiper' indicator-dots="{{true}}" 
+autoplay="{{true}}" interval="{{3000}}" circular="{{true}}" bindchange="bindchange">
+
+  <swiper-item>
+
+  <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'/>
+  
+  </swiper-item>
+
+  <swiper-item>
+
+  <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg'/>
+  
+  </swiper-item>
+
+
+  <swiper-item>
+
+  <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'/>
+  
+  </swiper-item>
+
+</swiper>
+
+<view style='margin-top:30px;'>movable-view区域小于movable-area</view>
+
+<movable-area class="movablearea">
+  <movable-view class='movableview'
+    direction="all" x="30" y="30"
+  ></movable-view>
+  <movable-view style="left:30px;top:50px;width:30px;height:30px;background-color:red"
+    direction="all" x="30" y="30"
+  ></movable-view>
+
+</movable-area>
+

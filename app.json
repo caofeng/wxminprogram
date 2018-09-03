@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/financial/financial",
+    "pages/user/user",
+    "pages/media/media",
+    "pages/map/map",
+    "pages/canvas/canvas",
+    "pages/open/open"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "backgroundColor": "white",
+    "backgroundColorTop": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/res/tab_bar_home_1.png",
+        "selectedIconPath": "pages/res/tab_bar_home_selected_1.png"
+      },
+      {
+        "pagePath": "pages/financial/financial",
+        "text": "理财",
+        "iconPath": "pages/res/tab_bar_financial_1.png",
+        "selectedIconPath": "pages/res/tab_bar_financial_selected_1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我",
+        "iconPath": "pages/res/tab_bar_me_1.png",
+        "selectedIconPath": "pages/res/tab_bar_me_selected_1.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 30000,
+    "downloadFile": 60000
+  },
+  "debug": false
+}

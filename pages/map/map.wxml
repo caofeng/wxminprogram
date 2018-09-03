@@ -1,0 +1,3 @@
+<!--pages/map/map.wxml-->
+<map class='mapstyle' scale="16" bindtap="maptap" bindupdated="updatesuc"
+longitude="114.0666" latitude="22.6166"></map>

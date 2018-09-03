@@ -1,0 +1,17 @@
+<!--pages/media/media.wxml-->
+
+<!-- 音频播放 -->
+<audio class='audiostyle' id='audio' src='{{src}}' loop='{{isloop}}' controls='true' 
+poster="{{poster}}" name='{{name}}' author="{{author}}" bindplay="play" bindpause="pause"></audio>
+
+<!-- 图片展示 -->
+<image class='imagestyle' src='{{imagescr}}' mode='aspectFit' bindload="imageloadsuccess" binderror="imageloaderror"></image>
+
+<video class='videostyle' src='{{videosrc}}' initial-time="0" duration='1000' controls='true' autoplay="{{false}}" muted="true" objectFit="contain" bindplay="play" bindpause="pause" binderror="playerror" show-center-play-btn="true" ></video>
+
+ <camera mode="normal" device-position='back' class='camerastyle'></camera> 
+
+<button type='primary' bindtap='takephoto'>拍照</button>
+
+
+
